@@ -9,8 +9,9 @@ import sys
 Age = int(input("\n How old are you?"))
 if(Age==15):
     print("You are not qualified to open an account")
-else:
-    print("Thank you for banking with us")
+if(Age<15):
+    
+    print("You don't qualify to open an account. Thank you for banking with us")
     sys.exit()
 
         
